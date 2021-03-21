@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8 ">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="instagram-wrapper"> <!--**div que vai ser o wrapper ,  pai , contenier pai vai
+                                     segurar tanto o conteudo do celular quanto o do login -->
+        <div class="instagram-phone"> <!--div contenier para o lado esquerdo imagem do celular-->
+            <img src="./img/instagram-celular.png" alt="celular">
+        </div>
+        <div class="instagram-continue">
+              <!--estou agrupando em grupos. a Classe foi feita para 
+                aplicarmos stylos iguais. sem ficar precisando repetir  id **/ -->
+             <div class="group"> <!-- primeiro grupo-->
+                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
+                <div class="profile-photo"> <!-- PRECISAR COLOCAR UMA DIV POIS A FOTO DO INSTAGRAN É REDONDA ENTÃO ESTA SENDO CRIADA A CLASSE PROFIE-PHOTO-->
+                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil"> <!--DENTRO DESTA CLASSE TRAGO A IMAGEM DO PERFIL--> 
+                </div>
+                    <a href="#" class="instagram-login">Continue como Giovanni ? </a> <!-- # para direcionar para a pagina inicial mesmo-->
+                    <a href="#" class="instagram-logout">Remover Conta </a>
+             </div>
+             <div class="class-group"><!--segundo grupo-->
+                <p class="notaccount">Não é Giovanni ? </p>
+                <p class="notacoount">
+                    <span class="link-blue">Alternar contas</span>
+                    ou
+                    <span class="link-blue">Inscreva-se</span>
+                </p>
+            </div>
+            <div class="get-the-app">
+                <p class="get-app">Baixe o aplicativo</p>
+                <div class="dowload">
+                    <a href="#" class="app-dowload"></a>
+                    <a href="#" class="app-download"></a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
